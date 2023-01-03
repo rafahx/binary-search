@@ -16,6 +16,14 @@ int main () {
     return 0;
 }
 
+/* 
+    Busca binária recursiva aplicada
+    @param vetor de números
+    @param valor a ser identificado
+    @param inicio do vetor
+    @param fim do vetor
+    @return indice do número dentro do vetor
+*/
 int bin(int Vetor[], int valor, int inicio, int fim) {
     int m;
     if (inicio > fim)
